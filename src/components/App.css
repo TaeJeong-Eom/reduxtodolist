@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center; /* 수평으로 중앙 정렬 */
+  align-items: center; /* 수직으로 중앙 정렬 */
+  min-height: 100vh; /* 뷰포트 전체 높이 사용 */
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  max-width: 1200px;
+  min-width: 1200px;
+  width: 100%; /* 전체 너비를 차지하도록 설정 */
+  margin: 70px auto 40px; /* 상단, 하단 마진 설정 */
+  padding: 0 20px; /* 내부 여백 설정 */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #1e1e1e;
+  margin-bottom: -20px;
+}
+
+.date {
+  font-size: 14px;
+  color: #1e1e1e;
+  margin-bottom: -20px;
+  font-weight: bold;
+}
+
+.main-container {
+  max-width: 1200px; /* 원하는 최대 너비 */
+  width: 100%; /* 전체 너비를 차지하도록 설정 */
+  padding: 20px; /* 내부 여백 설정 */
+}
+
+.body {
+  max-width: 1200px;
+  width: 100%; /* 전체 너비를 차지하도록 설정 */
+  padding: 20px;
+  background-color: #EAEAEA; /* 배경색 적용 */
+  margin: 0 auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* 섹션 사이의 간격 */
+}
+
+.menu {
+  flex: 1;
+}
+
+.menu h4 {
+  margin-left: 45px;
+  margin-bottom: -6px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 10px;
+  background-color: #EAEAEA; /* 배경색 적용 */
+  margin: 0 auto;
+}
+
+.style {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #EAEAEA;
+}
+
+.squareStyle1 {
+  width: 300px;
+  background-color: #EAEAEA;
+  border: 1px solid #9C9486;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 5px auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+  padding: 20px;
+}
+
+.squareStyle1 .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-grow: 1;
+}
+
+.squareStyle1 .button-container {
+  display: flex;
+  flex-direction: row; /* 버튼들을 가로로 정렬 */
+  justify-content: flex-end; /* 버튼들을 오른쪽으로 정렬 */
+  width: 100%;
+}
+
+.input-title {
+  width: 100%;
+  padding: 5px 10px;
+  padding-right: 69px;
+  margin-top: -7px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  height: 30px;
+  text-align: left; 
+  box-sizing: border-box; 
+}
+
+.input-content {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  padding-right: 86px;
+  margin-top: -7px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  resize: none;
+  text-align: left; 
+  box-sizing: border-box;
+}
+
+.done-button, .del-button, .fix-button {
+  width: 50px;
+  padding: 11px 12px;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.done-button {
+  background-color: #5a6f57;
+  border: 1px solid #9C9486;
+  margin-right: 10px;;
+}
+
+.del-button {
+  background-color: #EB5757;
+  border: 1px solid #B53534;
+  margin-right: -130px;
+}
+
+.fix-button {
+  background-color: #5a6f57;
+  border: 1px solid #b6cfb6;
+}
+
+h4 {
+  margin-left: 50px 0;
+}
